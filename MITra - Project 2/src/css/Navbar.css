@@ -1,0 +1,90 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1px;
+    background-color: white;
+    width: 100%;
+
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.mitraLogo > img{
+    height: 50px;
+    margin-right: 20px;
+}
+
+.navbar_icons{
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar_icon > .MuiSvgIcon-root{
+    color: gray;
+    cursor: pointer;
+    font-size: xx-large;
+    padding: 5px 20px;
+}
+
+.navbar_icon > .MuiSvgIcon-root:hover{
+    color: #8f1f1b;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.navbar_search{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar_search > input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+}
+
+.navbar_search > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.navbar_right{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.navbar_right > navbar_avatar:hover{
+    cursor: pointer !important;
+}
+
+.navbar_right > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.navbar_right > .MuiSvgIcon-root:hover{
+    color: #8f1f1b;
+}
+
+.navbar_right > .MuiButton-root{
+    color: white;
+    margin-left: 25px;
+    text-transform: inherit;
+    background-color: #8f1f1b;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar_right > .MuiButton-root:hover{
+    color: white;
+    background-color: #b92b27;
+}

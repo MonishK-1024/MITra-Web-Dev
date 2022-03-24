@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap);
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://previews.123rf.com/images/betelgejze/betelgejze1607/betelgejze160700121/60189317-la-escuela-vector-de-patr%C3%B3n-transparente-doodle-de-educaci%C3%B3n-y-de-escuela-de-color-dibujado-a-mano-d.jpg");
+   background-repeat: repeat;
+}
+
+.login_container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.login_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.login_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login_desc > p{
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login_auth{
+    display: flex;
+    margin-top: 50px;
+}
+
+.login_authOptions{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.login_authOption{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login_authOption:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.login_authOption > img{
+    height: 30px;
+    object-fit: contain;
+}
+
+.login_authOption > p{
+    margin-left: 11px;
+}
+
+.signUp_WithEmail{
+    border-color: black;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 15px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.signUp_WithEmail:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.login_authDesc{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+.login_authDesc > p{
+    font-size: small;
+    color: gray;
+}
+
+
+.login_emailPass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 0.5;
+    margin-left: 5px;
+}
+
+.login_label > h4{
+    padding: 5px;
+}
+
+.login_inputFieldHeading > h5{
+    padding: 3px;
+    font: bold;
+}
+
+.login_inputFields{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.login_inputField{
+    padding: 5px;
+}
+
+.login_inputField > input{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+
+.login_button > button{
+    box-sizing: border-box; 
+    font: inherit; 
+    padding: 0px 20px; 
+    height: 36px; 
+    min-width: 38px; 
+    position: relative; 
+    border-width: 0px; 
+    outline: none; 
+    color: white;
+    max-width: 100%;
+    background-color: #2e69ff;
+    border-radius: 10px;
+}
+.login_button > button :hover{
+    cursor: pointer;
+}
+
+
+.login_button > p{
+    text-align: justify;
+}
+
+.login_forgetButton{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_forgetButton > small{
+    color: gray;
+    cursor: pointer;
+}
+
+.login_forgetButton > small:hover{
+    color: blue;
+   text-decoration: underline;
+}
+
+.login_forgetButton > button{
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login_emailPass > button{
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login_lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.login_lang > p{
+    color: gray;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.login_lang > p:hover{
+    color: gray;
+    margin-right: 5px;
+   text-decoration: underline;
+}
+
+.login_lang > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.login_footer{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login_footer > p{
+    color: gray;
+    font-size: small;
+    cursor: pointer;
+}
+
+.login_footer > p:hover{
+    text-decoration: underline;
+}

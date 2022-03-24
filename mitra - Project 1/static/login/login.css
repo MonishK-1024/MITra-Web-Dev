@@ -1,0 +1,85 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" ;
+body{
+    background-image: url(https://media.istockphoto.com/vectors/seamless-question-mark-background-vector-id609077324?k=20&m=609077324&s=612x612&w=0&h=uJoQYOfQ2iatjLQvklv9_QLDH624rCmoRd5FY2hRPbE=);
+}
+
+.align_sbox{
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: #3d3d38;  
+    border-radius: 15px ;  
+    width: 600px;  
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logobox{
+    height: 105px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    float: center;
+    margin-left: 200px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #FCFC0C;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    vertical-align: middle;
+}
+
+.login{  
+
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 40px;  
+          
+}  
+
+label{  
+    color: #FCFC0C;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background: #FCFC0C;
+    color: rgb(18, 18, 19);  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    color:black
+}  
+
+a:hover{
+    color: #FCFC0C;
+}
